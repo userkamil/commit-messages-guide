@@ -6,16 +6,9 @@ Una guía para entender la importancia de los mensajes de commit y cómo escribi
 
 Aquí vas a aprender qué es un commit, por qué es importente escribir buenos mensajes, buenas prácticas y algunos tips para planear y (re)escribir una buena historia de commits.
 
-## Lenguajes disponibles
-
-- [Inglés](README.md)
-- [Portugués](README_pt-BR.md)
-- [Alemán](README_de-DE.md)
-- [Español](README_es-AR.md)
-
 ## ¿Qué es un "commit"?
 
-En una frase, un commit es una copia instantánea de los archivos escritos de tu repositorio local. 
+En una frase, un commit es una copia instantánea de los archivos escritos de tu repositorio local.
 En contra de lo que mucha gente cree, [git no guarda solo la diferencia entre los archivos, sino que guarda cada versión completa](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Fundamentos-de-Git#_copias_instant%C3%A1neas_no_diferencias)
 Para los archivos que no cambian de un commit a otro, git guarda un enlace a la versión previa, idéntica al archivo guardado.
 
@@ -52,7 +45,7 @@ _¿Pero por qué usar forma imperativa?_
 
 Un mensaje de commit describe qué **hace** el cambio referenciado, su efecto, no qué se hizo.
 
-[Este excelente artículo de Chris Beans](https://chris.beams.io/posts/git-commit/) nos da deja una idea que podemos usar como ayuda para escribir mensajes de commit en forma imperativa: 
+[Este excelente artículo de Chris Beans](https://chris.beams.io/posts/git-commit/) nos da deja una idea que podemos usar como ayuda para escribir mensajes de commit en forma imperativa:
 
 ```
 If applied, this commit will <commit message>
@@ -416,7 +409,8 @@ Stage this hunk [y,n,q,a,d,/,K,j,J,g,e,?]?
 
 ## Otros enlaces interesantes
 
-https://whatthecommit.com/
+- https://whatthecommit.com/
+- https://gitmoji.carloscuesta.me/
 
 ## ¿Te gustó?
 
